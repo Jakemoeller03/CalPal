@@ -75,7 +75,6 @@ Perfect for:
 
 ## Technical Requirements
 
-[Add specific requirements based on your platform]
 - Operating System: [iOS/Android/Web/Desktop]
 - Minimum Version: [Version requirements]
 - Storage: [Storage requirements]
