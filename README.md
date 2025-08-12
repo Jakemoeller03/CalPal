@@ -14,13 +14,13 @@ CalPal is a comprehensive calorie tracking application that creates personalized
 - **Muscle Building**: Tailored macros for muscle development
 - **Weight Maintenance**: Balanced intake to maintain current weight
 
-### 📊 Comprehensive Tracking
+### Comprehensive Tracking
 - **Macro Monitoring**: Track calories, protein, carbs, sugar, and fat
 - **Daily Progress**: Monitor your intake against your personalized targets
 - **Meal Management**: Add, edit, and organize your meals
 - **Favorites System**: Save frequently consumed meals for quick logging
 
-### 👤 User Profile Management
+### User Profile Management
 - Personalized recommendations based on:
   - Age
   - Weight
@@ -51,7 +51,7 @@ CalPal is a comprehensive calorie tracking application that creates personalized
 4. **Monitor Progress**: View your daily intake against your targets
 5. **Daily Reset**: Start fresh each day with a clean slate
 
-## 📱 How It Works
+## How It Works
 
 CalPal uses established nutritional formulas to calculate your:
 - **Basal Metabolic Rate (BMR)**: Your body's baseline caloric needs
