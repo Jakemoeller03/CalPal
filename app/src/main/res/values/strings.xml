@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CalPalHS</string>
+    <string name="plan_button" >Plan</string>
+    <string name="start_path">Start Your Path for Calorie Tracking with CalPal</string>
+    <string name="start_counting">Start Counting!</string>
+    <string name="calpal_logo">CalPal Logo"</string>
+    <string name="creating_your_new_plan">Creating Your New Plan</string>
+    <string name="plan_1">Plan #1</string>
+    <string name="your_information">Your Information</string>
+    <string name="name" >Name:</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="age">Age:</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="weight_pounds">Weight (lbs)</string>
+    <string name="enter_your_weight_pounds">Enter your weight in pounds</string>
+    <string name="height_centimeters">Height (cm)</string>
+    <string name="enter_your_height_centimeters">Enter your height in centimeters</string>
+    <string name="select_your_goal_next">Select Your Goal \nNEXT</string>
+    <string name="add_meal">Add Your Meal</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="per_1_serving">Per 1 Serving:</string>
+    <string name="calories">Calories</string>
+    <string name="protein">Protein (g)</string>
+    <string name="sugar">Sugar (g)</string>
+    <string name="total_fat">Total Fat (g)</string>
+    <string name="total_carb">Total Carbs (g)</string>
+    <string name="save_add_another_meal"><![CDATA[Save & Add Another Meal]]></string>
+    <string name="confirm_your_custom_meal_next">Confirm Your Custom Meal\nNEXT</string>
+    <string name="adding_your_new_meal">Add Your Meal</string>
+    <string name="All_Meals">All Meals</string>
+    <string name="your_goal">Your Goal</string>
+    <string name="user_info">User Info</string>
+    <string name="today_s_caloric_intake">Today\'s Caloric Intake:</string>
+    <string name="Your_Final_Plan">Your Final Plan</string>
+    <string name="add_meal_entry">Add Meal Entry</string>
+    <string name="todays_meals">Today\'s Meals:</string>
+</resources>

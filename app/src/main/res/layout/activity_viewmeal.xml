@@ -1,0 +1,143 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/calpalviewmeal" />
+
+    <EditText
+        android:id="@+id/editTextServings"
+        android:layout_width="89dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="60dp"
+        android:hint="Servings"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintStart_toEndOf="@+id/trackMealButton" />
+
+    <TextView
+        android:id="@+id/mealName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:padding="16dp"
+        android:text="Meal Name"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="Sugar: 0 g"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fat" />
+
+    <TextView
+        android:id="@+id/fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="Fat: 0 g"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carb" />
+
+    <TextView
+        android:id="@+id/carb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="16dp"
+        android:text="Carbs: 0 g"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/protein" />
+
+    <TextView
+        android:id="@+id/protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="16dp"
+        android:text="Protein: 0 g"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calorie" />
+
+    <TextView
+        android:id="@+id/calorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="16dp"
+        android:text="Calories: 0"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mealName" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="-85dp"
+        android:background="@android:color/transparent"
+        android:onClick="onBackClicked"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-400dp"
+        android:layout_marginBottom="45dp"
+        android:text="Favorite Meal"
+        android:backgroundTint="#626262"
+        android:onClick="onFavoriteMealClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="-400dp"
+        android:onClick="onDeleteMealClicked"
+        android:text="Delete Meal"
+        android:backgroundTint="#626262"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/trackMealButton"
+        android:layout_width="134dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="-400dp"
+        android:onClick="onTrackMealClicked"
+        android:text="Track Cal."
+        android:backgroundTint="#626262"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

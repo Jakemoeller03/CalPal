@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/calpal_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/calpaltransparent"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/adding_your_new_meal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/meal_name"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/meal_name"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/per_1_serving"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/calories"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextProtein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/protein"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextSugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sugar"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextFat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_fat"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextCarbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_carb"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/All_Meals"
+            android:backgroundTint="#626262"
+            android:layout_marginRight="16dp"
+            android:onClick="onViewAllMealsClicked" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_your_custom_meal_next"
+            android:backgroundTint="#626262"
+            android:onClick="onConfirmMealClicked" />
+    </LinearLayout>
+</LinearLayout>

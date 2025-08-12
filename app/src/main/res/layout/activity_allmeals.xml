@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/calpalallmeals" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="153dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#626262"
+        android:text="Favorite Meals"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/mealContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:padding="16dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="195dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="-400dp"
+        android:layout_marginBottom="-200dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="-400dp"
+        android:layout_marginBottom="-275dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="-400dp"
+        android:layout_marginBottom="-350dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 3"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="197dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="-400dp"
+        android:layout_marginBottom="-425dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 4"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="197dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="-400dp"
+        android:layout_marginBottom="-500dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 5"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="195dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="-200dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 6"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="195dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 7"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="195dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="-46dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 8"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="194dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="-425dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 9"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="197dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginBottom="-500dp"
+        android:background="@android:color/transparent"
+        android:text="Meal 10"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
